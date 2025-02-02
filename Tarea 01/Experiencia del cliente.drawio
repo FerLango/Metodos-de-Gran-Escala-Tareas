@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="oq0uO9znL3bh0jEIelYM">
+    <mxGraphModel dx="1050" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYJ0B1hkSiGzmlRSXdah-1" target="YYJ0B1hkSiGzmlRSXdah-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-1" value="Asegurado envía sus documentos por medio de la plataforma actual" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="276.25" width="110" height="123.75" as="geometry" />
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYJ0B1hkSiGzmlRSXdah-2" target="YYJ0B1hkSiGzmlRSXdah-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-2" value="El sistema extrae la información por medio de OCR, analiza la consistencia y detecta anomalías con Machine Learning" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="280.63" width="160" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYJ0B1hkSiGzmlRSXdah-4" target="YYJ0B1hkSiGzmlRSXdah-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-9" value="Sospechosos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YYJ0B1hkSiGzmlRSXdah-8">
+          <mxGeometry x="-0.3672" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYJ0B1hkSiGzmlRSXdah-4" target="YYJ0B1hkSiGzmlRSXdah-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-11" value="Válidos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YYJ0B1hkSiGzmlRSXdah-10">
+          <mxGeometry x="-0.4146" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-4" value="Clasificación de documentos" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="286.88" width="116" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-12" value="Se notifica a asegurado y se inicia proceso de pago" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="298.13" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYJ0B1hkSiGzmlRSXdah-13" target="YYJ0B1hkSiGzmlRSXdah-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-18" value="Válidos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YYJ0B1hkSiGzmlRSXdah-14">
+          <mxGeometry x="0.2312" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YYJ0B1hkSiGzmlRSXdah-13" target="YYJ0B1hkSiGzmlRSXdah-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-17" value="Apócrifos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YYJ0B1hkSiGzmlRSXdah-15">
+          <mxGeometry x="-0.2966" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-13" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Validación manual del analista&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="348" y="425" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YYJ0B1hkSiGzmlRSXdah-16" value="Se notifica al asegurado el rechazo del siniestro por documentación apócrifa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="480" width="120" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
