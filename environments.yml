@@ -21,4 +21,5 @@ dependencies:
   - boto3
   - awswrangler
   - xgboost
-  - optuna
+  - streamlit
+  - altair
