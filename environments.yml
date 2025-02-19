@@ -6,7 +6,7 @@ dependencies:
   - python=3.11
   - scikit-learn
   - pandas
-  - numpy
+  - numpy<2.0.0
   - pytest
   - ipython
   - jupyterlab
