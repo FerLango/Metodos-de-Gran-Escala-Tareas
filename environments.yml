@@ -23,3 +23,7 @@ dependencies:
   - xgboost
   - streamlit
   - altair
+  - sphinx
+  - sphinxcontrib-napoleon
+  - sphinxawesome_theme
+  - myst-parser

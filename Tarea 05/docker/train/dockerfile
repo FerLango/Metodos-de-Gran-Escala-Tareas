@@ -1,0 +1,16 @@
+# Dockerfile para entrenamiento
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copiar archivos necesarios
+COPY src/train.py .
+COPY requirements.txt .
+
+# Instalar dependencias
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Definir argumentos y comando de inicio
+ENTRYPOINT ["python", "train.py"]
+# Argumentos para definir rutas de datos y modelo:
+CMD ["--data", "data/prep/train_clean.csv", "--model", "model/model.joblib"]
