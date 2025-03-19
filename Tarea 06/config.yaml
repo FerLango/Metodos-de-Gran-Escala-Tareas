@@ -1,0 +1,9 @@
+banxico:
+  token: 'ffacda16936e161067bfc6e602406da6e830c658ea0f82a201e9cee7780e21f2'
+
+inegi:
+  token: '7be5283a-9ae6-4520-a826-2b61671cd6ad'
+
+aws:
+  bucket_name: "itam-analytics-ferlango"
+  raw_folder: "econ/raw"

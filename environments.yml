@@ -25,5 +25,7 @@ dependencies:
   - altair
   - sphinx
   - sphinxcontrib-napoleon
-  - sphinxawesome_theme
   - myst-parser
+  - pip
+  - pip:
+    - sphinxawesome_theme
