@@ -6,4 +6,6 @@ inegi:
 
 aws:
   bucket_name: "itam-analytics-ferlango"
-  raw_folder: "econ/raw"
+  database_name: "econ"
+  region: "us-east-1"
+  athena_output: "athena_results"
